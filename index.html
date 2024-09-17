@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de 21</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo de 21</h1>
+    <div id="game">
+        <button id="startGame">Começar Jogo</button>
+        <button id="hit" disabled>Comprar Carta</button>
+        <button id="stand" disabled>Parar</button>
+        <div id="dealer">
+            <h2>Dealer</h2>
+            <div id="dealerCards"></div>
+            <div id="dealerScore"></div>
+        </div>
+        <div id="player">
+            <h2>Você</h2>
+            <div id="playerCards"></div>
+            <div id="playerScore"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
